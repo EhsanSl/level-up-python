@@ -11,4 +11,4 @@ def schedule_function(event_time, function, *args):
 # commands used in solution video for reference
 if __name__ == '__main__':
     schedule_function(time.time() + 1, print, 'Howdy!')
-    schedule_function(time.time() + 1, print, 'Howdy!', 'How are you?')
+    schedule_function(time.time() + 3, print, 'Howdy!', 'How are you?')
